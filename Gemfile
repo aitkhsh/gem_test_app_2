@@ -50,6 +50,10 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "annotate"
+  gem "rails_best_practices"
 end
 
 group :test do
